@@ -50,7 +50,7 @@ bool FindExt (const std::string &str, const std::string &suffix) {
     
     NSRect windowRect = NSMakeRect(0, 0, 550, 164);
     NSWindow * window = [[NSWindow alloc] initWithContentRect:windowRect
-            styleMask:windowStyle
+            styleMask:[window styleMask] & ~NSResizableWindowMask
             backing:NSBackingStoreBuffered
             defer:NO];
     
