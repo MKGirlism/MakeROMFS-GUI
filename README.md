@@ -8,11 +8,8 @@ This app allows you to quickly create .romfs files for use with HANS.
 Linux:<br />
 `chmod 777 compile_linux.sh && ./compile_linux.sh`
 
-Windows (in MingWin):<br />
+Windows (in MinGW):<br />
 `chmod 777 compile_windows.sh && ./compile_windows.sh`
-
-macOS:<br />
-`chmod 777 compile_mac.sh && ./compile_mac.sh`
 
 Now you can run this app from anywhere.
 
@@ -34,6 +31,3 @@ Of course, replace "<input romfs dir>" with the full path to your ROMFS folder, 
 <b>Windows</b><br />
 <img src="https://www.dshack.org/assets/images/makeromfsgui4.png" /><br />
 <img src="https://www.dshack.org/assets/images/makeromfsgui5.png" />
-
-<b>macOS</b><br />
-Coming soon.

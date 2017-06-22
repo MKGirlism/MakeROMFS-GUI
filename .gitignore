@@ -1,2 +1,4 @@
 makeromfs-gui
 makeromfs-gui.exe
+*.o
+polarssl/*.o
